@@ -9,6 +9,11 @@ android {
     namespace = "com.example.hiltgradleimplementation"
     compileSdk = 34
 
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.hiltgradleimplementation"
         minSdk = 24
